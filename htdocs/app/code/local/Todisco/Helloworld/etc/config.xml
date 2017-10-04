@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+    <modules>
+        <Todisco_Helloworld>
+            <version>0.1.0</version>
+        </Todisco_Helloworld>
+    </modules>
+    <global>
+        <blocks>
+            <todisco_helloworld>
+                <class>Todisco_Helloworld_Block</class>
+            </todisco_helloworld>
+        </blocks>
+        <helpers>
+            <todisco_helloworld>
+                <class>Todisco_Helloworld_Helper</class>
+            </todisco_helloworld>
+        </helpers>
+    </global>
+    <frontend>
+        <routers>
+            <todisco_helloworld>
+                <use>standard</use>
+                <args>
+                    <module>Todisco_Helloworld</module>
+                    <frontName>hello</frontName>
+                </args>
+            </todisco_helloworld>
+        </routers>
+    </frontend>
+    <default>
+        <todisco_helloworld>
+            <configuration>
+                <enabled>1</enabled>
+                <message>Test Message from config.xml</message>
+            </configuration>
+        </todisco_helloworld>
+    </default>
+</config>

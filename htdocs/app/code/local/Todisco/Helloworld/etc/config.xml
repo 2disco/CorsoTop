@@ -27,6 +27,13 @@
                 </args>
             </todisco_helloworld>
         </routers>
+        <layout>
+            <updates>
+                <todisco_helloworld>
+                    <file>todisco_helloworld.xml</file>
+                </todisco_helloworld>
+            </updates>
+        </layout>
     </frontend>
     <default>
         <todisco_helloworld>
